@@ -19,3 +19,7 @@ To manage the camera photo, you might need to use another php script to view/del
 The code has been put into index.php file under photos folder to make the whole project easy to use.
 
 - https://camera51.herokuapp.com/photos : simple file manager to manage your photos. You can view or delete the photos taken by this app. 
+
+
+Notes:
+Original Code is from SunPma's blog post,“https://sunpma.com/994.html”. I tanslated all to English and add simple-file-manager code into it. All codes are belongs to original authors. 
