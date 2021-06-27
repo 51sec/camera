@@ -1,5 +1,7 @@
 # camera
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/51sec/camera/master)
+
 The page will ask your camera permission then automatically take a photo from your camera without any further step. 
 
 photos will be in website root folder
