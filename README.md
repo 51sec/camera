@@ -11,11 +11,11 @@ Captured Photo will be placed into website /photos/ folder
 
 - https://camera51.herokuapp.com/ : It will ask your permission to use camera then take a photo from your camera automatically. The phone taken by camera will be saved into the folder named by your public ip. 
 
-Note: The photo will be deleted automatically once Heroku app is in idle.
+Note: The photo will be deleted automatically once Heroku app is in idle. It will be active 12 hours/day from 8AM - 8PM. 
 
 
 To manage the camera photo, you might need to use another php script to view/delete/upload your photos. 
 - In this project, I integrated the one from https://github.com/jcampbell1/simple-file-manager .
-The code has been put into index.php under photos folder to make the whole project easy to use.
+The code has been put into index.php file under photos folder to make the whole project easy to use.
 
 - https://camera51.herokuapp.com/photos : simple file manager to manage your photos. You can view or delete the photos taken by this app. 
