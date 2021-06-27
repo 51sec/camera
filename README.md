@@ -1,4 +1,4 @@
-# camera
+# Camera
 This project is used to demonstrate how easy a web app can take your camera. As long as you give permissin to the web app to use your camera, it can take your camera photo without asking. 
 
 Try this app using Heroku.
