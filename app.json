@@ -1,0 +1,15 @@
+{
+    "name": "camera",
+    "description": "Automatically take a photo from your camera after permission given",
+    "keywords": [
+        "Camera",
+        "permission",
+        "photo",
+        "php"
+    ],
+    "website": "https://github.com/51sec/camera",
+    "repository": "https://github.com/51sec/camera",
+    "env": {
+        "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-php"
+    }
+}
