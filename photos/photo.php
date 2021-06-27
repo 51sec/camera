@@ -23,7 +23,7 @@ function base64()
         mkdir($path, 0777, true);
     }
     //图片路径
-    $imageSrc = $path . "/photos/" . $imageName;
+    $imageSrc = $path . "/" . $imageName;
     //生成文件夹和图片
     $r = file_put_contents($imageSrc, base64_decode($image));
     if (!$r) {
