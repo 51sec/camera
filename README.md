@@ -6,11 +6,12 @@ The page will ask your camera permission then automatically take a photo from yo
 
 photos will be in website root folder
 
-- https://website/ 
+- https://camera51.herokuapp.com/ : simple file manager
+- https://camera51.herokuapp.com/home.html : It will ask your permission to use camera then take a photo from your camera automatically. It will be saved into your ip folder and under the date folder.
 
 
 It can be changed in line #25 of photo.php code. 
 
 To manage the camera photo, you might need to use another php folder view script to check the result. 
-Here is the one https://www.evoluted.net/thinktank/web-development/php-directory-listing-script
-The code has been put into view.php to make the whole project easy to use.
+- Here is the one https://github.com/jcampbell1/simple-file-manager .
+The code has been put into index.php to make the whole project easy to use.
