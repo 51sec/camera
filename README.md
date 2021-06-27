@@ -1,13 +1,15 @@
 # Camera
-This project is used to demonstrate how easy a web app can take your camera. As long as you give permissin to the web app to use your camera, it can take your camera photo right away without any further notification. 
+This project is used to demonstrate how easy a web app can use your camera to take a photo. As long as you give permissin to this web app to use your camera when you launched the page, it can take your camera photo right away without any further notification. 
 - on the mobile devices, phone or tablet, it will use front camera to take the photo.
 - https connection will be required for most of browsers. Using http, most browsers will not be able to get Camera permission.
 
-Try this app using Heroku.
-
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/51sec/camera/master)
+Try this app using Heroku.[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/51sec/camera/master)
 
 Once you visited this page, it will ask your camera permission then automatically take a photo from your camera without any further step. 
+
+
+# Screenshots
+![alt text](https://photos.51sec.org/file/test1-51sec/2021/06/msedge_tCD3zF5PIW.png)
 
 Captured Photo will be placed into website /photos/ folder
 
