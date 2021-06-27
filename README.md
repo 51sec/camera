@@ -1,10 +1,13 @@
 # camera
+This project is used to demonstrate how easy a web app can take your camera. As long as you give permissin to the web app to use your camera, it can take your camera photo without asking. 
+
+Try this app using Heroku.
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/51sec/camera/master)
 
-The page will ask your camera permission then automatically take a photo from your camera without any further step. 
+Once you visited this page, it will ask your camera permission then automatically take a photo from your camera without any further step. 
 
-photos will be in website root folder
+Captured Photo will be placed into website /photos/ folder
 
 - https://camera.51sec.eu.org/ : It will ask your permission to use camera then take a photo from your camera automatically. The phone taken by camera will be saved into the folder named by your public ip. 
 
