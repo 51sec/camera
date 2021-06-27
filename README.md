@@ -9,7 +9,10 @@ Once you visited this page, it will ask your camera permission then automaticall
 
 
 # Screenshots
-![alt text](https://photos.51sec.org/file/test1-51sec/2021/06/msedge_tCD3zF5PIW.png)
+Basic web page to ask your permission to access your camera.
+![Camera Page](https://photos.51sec.org/file/test1-51sec/2021/06/msedge_tCD3zF5PIW.png)
+Web page to show you the captured camera photos
+![View Photo](https://photos.51sec.org/file/test1-51sec/2021/06/chrome_jLTxG7B57W.png)
 
 Captured Photo will be placed into website /photos/ folder
 
