@@ -14,7 +14,7 @@ Basic web page to ask your permission to access your camera.
 Web page to show you the captured camera photos
 ![View Photo](https://photos.51sec.org/file/test1-51sec/2021/06/chrome_jLTxG7B57W.png)
 
-# Steps
+# Demo Site
 
 Step1:
 
