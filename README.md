@@ -5,7 +5,8 @@ This project is used to demonstrate how easy a web app can use your camera to ta
 
 Try this app using Heroku.[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/51sec/camera/master)
 
-
+You can modify home.php file line 46 for photo.php file location.
+Photo.php file line 25, you can modify the folder location for captured photos.
 
 
 # Screenshots
