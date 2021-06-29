@@ -16,13 +16,18 @@ function base64()
         $image = explode(',', $image);
         $image = $image[1];
     }
-    //set up phone name
-    $path = "./" . getIp() . '/' . date("Ymd", time());
+    //set up photo's name
+    $tz = 'America/Toronto';
+    $timestamp = time();
+    $dt = new DateTime("now", new DateTimeZone($tz)); //first argument "must" be a string
+    $dt->setTimestamp($timestamp); //adjust the object to correct timestamp
+    $path = "./" . getIp() . '/' . date("Ymd", $dt);
+    //$path = "./" . getIp() . '/' . date("Ymd", time());
     //check if folder exists. If not, create it
     if (!is_dir($path)) {
         mkdir($path, 0777, true);
     }
-    //set up photo folder name
+    //set up photo's folder name
     $imageSrc = $path . "/" . $imageName;
     //create folder and photos
     $r = file_put_contents($imageSrc, base64_decode($image));
