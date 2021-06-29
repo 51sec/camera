@@ -21,7 +21,8 @@ function base64()
     $timestamp = time();
     $dt = new DateTime("now", new DateTimeZone($tz)); //first argument "must" be a string
     $dt->setTimestamp($timestamp); //adjust the object to correct timestamp
-    $path = "./" . getIp() . '/' . date("Ymd", $dt->format('Ymd'));
+    
+    $path = "./" . getIp() . '/' . $dt->format('Ymd');
     //$path = "./" . getIp() . '/' . date("Ymd", time());
     //check if folder exists. If not, create it
     if (!is_dir($path)) {
